@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FlagOfTheWeek">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/albania_flag" />
+
+    <TextView
+        style="@style/flagOfTheWeekTextViews"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/albania"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="bold" />
+
+    <TextView
+
+        style="@style/flagOfTheWeekTextViews"
+        android:layout_marginBottom="16dp"
+        android:text="@string/albania_details"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+
+        style="@style/flagOfTheWeekTextViews"
+        android:layout_marginBottom="8dp"
+        android:text="@string/fun_fact"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textStyle="italic" />
+
+    <TextView
+
+        style="@style/flagOfTheWeekTextViews"
+        android:layout_marginBottom="8dp"
+        android:text="@string/fun_fact_details"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</LinearLayout>
